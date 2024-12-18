@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.console {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    height: 350px;
+    overflow-y: scroll;
+    background-color: #f4f4f4;
+    position: relative;
+    background-image: url('console-background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.console p {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.error {
+    color: red;
+}
+
+#messageBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    height: 150px;
+    background-color: #f4f4f4;
+    overflow-y: scroll;
+    background-image: url('messageBox-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.treasure-hunter-image {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    transition: all 0.9s ease;
+
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#messageBox {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #FFD700;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    max-width: 600px;
+    height: 200px;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+.log-entry {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+#gameHistory {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#gameHistory div {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.treasure-hunter-image {
+    width: 100px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.location-image {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    display: none;
+}
+
+#console {
+    position: relative;
+    height: 500px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#path {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+#console {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.treasure-hunter-image,
+.location-image {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.path-line {
+    position: absolute;
+    height: 2px;
+    background-color: blue;
+}
+
+#messageBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.log-entry {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.error {
+    color: red;
+}
+
+#gameHistory {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+}

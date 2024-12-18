@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宝藏寻找模拟</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="loginPage">
+        <h1>欢迎来到寻宝游戏</h1>
+        <form id="loginForm">
+            <label for="username">请输入用户名:</label>
+            <input type="text" id="username" required placeholder="用户名">
+            <button type="submit">登录</button>
+        </form>
+    </div>
+
+    <div id="gamePage" style="display: none;">
+        <h1 style="color: #FFD700;">216 寻找宝藏</h1>
+        <button id="musicButton">关闭音乐</button>
+        <div class="background-image"></div>
+        <div id="console" class="console">
+            <div id="path"></div>
+            <img id="treasureHunter" class="treasure-hunter-image" src="start.jpg" alt="Treasure Hunter">
+            <img id="libraryImage" class="location-image" src="library.jpg" alt="Ancient Library"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="templeImage" class="location-image" src="temple.jpg" alt="Ancient Temple"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="northChamberImage" class="location-image" src="north_chamber.png" alt="North Chamber"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="southForestImage" class="location-image" src="south_forest.png" alt="South Forest"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="eastRuinsImage" class="location-image" src="east_ruins.png" alt="East Ruins"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="treasureBoxImage" class="location-image" src="treasure.png" alt="Treasure Box"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="BoxImage" class="location-image" src="box.png" alt="Treasure Box"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+            <img id="Box1Image" class="location-image" src="box1.png" alt="Treasure Box"
+                style="display: none; width: 80px; height: 80px; position: absolute;">
+        </div>
+
+        <div>
+            <h2>欢迎回来，<span id="playerName">玩家</span>！</h2>
+            <button id="startButton">开始寻宝</button>
+            <button id="clearButton">清除记录</button>
+            <div id="gameHistory">
+                <h2>游戏历史</h2>
+            </div>
+        </div>
+        <div id="messageBox"></div>
+    </div>
+
+    <script src="treasure.js"></script>
+</body>
+
+</html>
